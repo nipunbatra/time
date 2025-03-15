@@ -17,6 +17,8 @@ body.dark-mode {
 
 .container {
     text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
 #time {
@@ -36,4 +38,11 @@ body.dark-mode {
     #time {
         font-size: 3rem;
     }
+}
+
+footer {
+    margin-top: 300px;
+    font-size: 0.8rem;
+    color: #888;
+    display: block;
 }
