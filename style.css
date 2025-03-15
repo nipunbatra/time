@@ -1,0 +1,39 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+#time {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+#theme-toggle {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+@media (max-width: 600px) {
+    #time {
+        font-size: 3rem;
+    }
+}
